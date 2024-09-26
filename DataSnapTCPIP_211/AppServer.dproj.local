@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/16 19:42:23.000.336,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/25 15:00:02.000.207,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/25 15:01:39.000.729,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:32.000.391,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:33.000.480,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:33.000.275,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:22.000.806,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:22.000.255,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:23.000.247,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2024/09/06 19:32:36.000.403,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 19:32:37.000.348,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/06 19:32:37.000.530,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2024/09/06 19:32:57.000.113,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\UnitMain.pas</Transaction>
+    <Transaction>2024/09/06 19:32:57.000.113,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\UnitMain.dfm</Transaction>
+    <Transaction>2024/09/06 19:32:59.000.411,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\ServerContainerUnit.pas</Transaction>
+    <Transaction>2024/09/06 19:32:59.000.411,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\ServerContainerUnit.dfm</Transaction>
+    <Transaction>2024/09/06 19:33:02.000.039,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\ServerMethodsUnit.dfm</Transaction>
+    <Transaction>2024/09/06 19:33:02.000.039,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\ServerMethodsUnit.pas</Transaction>
+    <Transaction>2024/09/06 19:33:07.000.557,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\AppServer.dproj</Transaction>
+    <Transaction>2024/09/06 22:18:02.000.889,=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 22:18:17.000.051,C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\ListType.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnap\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ListType.pas"/>
+    <File Path="ServerContainerUnit.pas"/>
+    <File Path="ServerContainerUnit.dfm"/>
+    <File Path="ServerMethodsUnit.pas"/>
+    <File Path="ServerMethodsUnit.dfm"/>
+    <File Path="UnitMain.pas"/>
+    <File Path="UnitMain.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

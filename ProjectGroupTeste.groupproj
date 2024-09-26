@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{69177868-234D-466C-8CF8-7185B44A035E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DataSnapTCPIP_211\AppServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataSnapHTTP_8080\WebServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\AppClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AppServer">
+        <MSBuild Projects="DataSnapTCPIP_211\AppServer.dproj"/>
+    </Target>
+    <Target Name="AppServer:Clean">
+        <MSBuild Projects="DataSnapTCPIP_211\AppServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppServer:Make">
+        <MSBuild Projects="DataSnapTCPIP_211\AppServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebServer">
+        <MSBuild Projects="DataSnapHTTP_8080\WebServer.dproj"/>
+    </Target>
+    <Target Name="WebServer:Clean">
+        <MSBuild Projects="DataSnapHTTP_8080\WebServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebServer:Make">
+        <MSBuild Projects="DataSnapHTTP_8080\WebServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AppClient">
+        <MSBuild Projects="Client\AppClient.dproj"/>
+    </Target>
+    <Target Name="AppClient:Clean">
+        <MSBuild Projects="Client\AppClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppClient:Make">
+        <MSBuild Projects="Client\AppClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AppServer;WebServer;AppClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AppServer:Clean;WebServer:Clean;AppClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AppServer:Make;WebServer:Make;AppClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

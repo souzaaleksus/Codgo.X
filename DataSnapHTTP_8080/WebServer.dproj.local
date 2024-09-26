@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/16 19:42:23.000.336,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/25 15:00:02.000.207,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/25 15:01:39.000.729,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:32.000.391,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:33.000.480,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:13:33.000.275,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:22.000.806,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:22.000.255,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/06 18:15:23.000.247,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2024/09/07 08:45:31.000.348,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2024/09/07 08:45:31.000.597,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2024/09/07 08:45:31.000.722,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2024/09/07 08:45:48.000.915,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\WebModuleUnit.pas</Transaction>
+    <Transaction>2024/09/07 08:45:48.000.915,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\WebModuleUnit.dfm</Transaction>
+    <Transaction>2024/09/07 08:45:51.000.088,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\FormUnit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\FormUnit.dfm</Transaction>
+    <Transaction>2024/09/07 08:45:51.000.088,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\FormUnit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\FormUnit.pas</Transaction>
+    <Transaction>2024/09/07 08:45:53.000.342,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\ServerMethodsUnit.pas</Transaction>
+    <Transaction>2024/09/07 08:45:53.000.342,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\ServerMethodsUnit.dfm</Transaction>
+    <Transaction>2024/09/07 08:46:00.000.128,F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP\WebServer.dproj</Transaction>
+    <Transaction>2024/09/07 10:34:35.000.984,=C:\TesteDelphi\ALEXANDRE_DE_SOUZA\DataSnapHTTP_8080\ListType.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="FormUnit.pas"/>
+    <File Path="FormUnit.dfm"/>
+    <File Path="ListType.pas"/>
+    <File Path="ServerMethodsUnit.pas"/>
+    <File Path="ServerMethodsUnit.dfm"/>
+    <File Path="WebModuleUnit.pas"/>
+    <File Path="WebModuleUnit.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

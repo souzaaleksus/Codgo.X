@@ -1,0 +1,20 @@
+program AppServer;
+
+uses
+  Vcl.Forms,
+  Web.WebReq,
+  IdHTTPWebBrokerBridge,
+  UnitMain in 'UnitMain.pas' {Form1},
+  ServerMethodsUnit in 'ServerMethodsUnit.pas' {ServerMethods: TDataModule},
+  ServerContainerUnit in 'ServerContainerUnit.pas' {ServerContainer: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TServerContainer, ServerContainer);
+  Application.Run;
+end.
+

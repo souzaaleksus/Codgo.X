@@ -1,0 +1,16 @@
+program AppClient;
+
+uses
+  Vcl.Forms,
+  UnitMain in 'UnitMain.pas' {FormMain},
+  DataServiceTCPIP_Impl in 'DataServiceTCPIP_Impl.pas' {DataServiceTCPIP: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TDataServiceTCPIP, DataServiceTCPIP);
+  Application.CreateForm(TFormMain, FormMain);
+  Application.Run;
+end.

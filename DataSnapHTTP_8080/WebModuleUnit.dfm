@@ -1,0 +1,36 @@
+object WebModule_: TWebModule_
+  Actions = <
+    item
+      Default = True
+      Name = 'DefaultHandler'
+      PathInfo = '/'
+      OnAction = WebModule1DefaultHandlerAction
+    end>
+  Height = 232
+  Width = 323
+  object DSServer: TDSServer
+    Left = 96
+    Top = 11
+  end
+  object DSHTTPWebDispatcher: TDSHTTPWebDispatcher
+    Server = DSServer
+    Filters = <>
+    AuthenticationManager = DSAuthenticationManager
+    WebDispatch.PathInfo = 'datasnap*'
+    Left = 96
+    Top = 75
+  end
+  object DSAuthenticationManager: TDSAuthenticationManager
+    OnUserAuthenticate = DSAuthenticationManagerUserAuthenticate
+    OnUserAuthorize = DSAuthenticationManagerUserAuthorize
+    Roles = <>
+    Left = 96
+    Top = 139
+  end
+  object DSServerClass: TDSServerClass
+    OnGetClass = DSServerClassGetClass
+    Server = DSServer
+    Left = 200
+    Top = 11
+  end
+end

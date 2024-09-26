@@ -1,0 +1,37 @@
+object ServerContainer: TServerContainer
+  OnCreate = DataModuleCreate
+  Height = 304
+  Width = 297
+  object DSServer: TDSServer
+    Left = 96
+    Top = 11
+  end
+  object DSTCPServerTransport: TDSTCPServerTransport
+    Server = DSServer
+    Filters = <>
+    AuthenticationManager = DSAuthenticationManager
+    Left = 96
+    Top = 73
+  end
+  object DSHTTPService: TDSHTTPService
+    HttpPort = 8080
+    Server = DSServer
+    Filters = <>
+    AuthenticationManager = DSAuthenticationManager
+    Left = 96
+    Top = 135
+  end
+  object DSAuthenticationManager: TDSAuthenticationManager
+    OnUserAuthenticate = DSAuthenticationManagerUserAuthenticate
+    OnUserAuthorize = DSAuthenticationManagerUserAuthorize
+    Roles = <>
+    Left = 96
+    Top = 197
+  end
+  object DSServerClass: TDSServerClass
+    OnGetClass = DSServerClassGetClass
+    Server = DSServer
+    Left = 200
+    Top = 11
+  end
+end

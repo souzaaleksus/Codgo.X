@@ -1,0 +1,16 @@
+program AppClient;
+
+uses
+  Vcl.Forms,
+  UnitMain in 'UnitMain.pas' {FormMain},
+  DataService_Impl in 'DataService_Impl.pas' {DataService: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TDataService, DataService);
+  Application.CreateForm(TFormMain, FormMain);
+  Application.Run;
+end.
